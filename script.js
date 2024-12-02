@@ -7,14 +7,15 @@ var template = `
     </ul>
 `;
 
-
-
 // Get the 'output' div element
 var output = document.getElementById('output');
 
 // Fetch JSON data from the file
 fetch('data.json')
     .then(function(response) {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
         return response.json();
     })
     .then(function(data) {
@@ -23,5 +24,5 @@ fetch('data.json')
         output.innerHTML = rendered;
     })
     .catch(function(error) {
-        console.error('Error:', error);
+        console.error('Error fetching data:', error);
     });
