@@ -1,18 +1,18 @@
 [
     {
         "movie": "Interstellar",
-        "release-date": October 26, 2014,
+        "release-date": "October 26, 2014"
         "rating": 8.7/10
     },
     {
         "movie": "Dune: Part 2",
-        "release-date": March 1, 2024,
-        "rating": 8.5/10
+        "release-date": "March 1, 2024"
+        "rating": "8.5/10"
     },
     {
        "movie": "Gladiator",
-        "release-date": May 5, 2000,
-        "rating": 8.5/10
+        "release-date": "May 5, 2000"
+        "rating": "8.5/10"
     }
 ]
 
