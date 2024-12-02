@@ -1,18 +1,18 @@
 [
     {
-        "movie": "Interstellar",
-        "release_date": "October 26, 2014",
-        "rating": "8.7/10"
+        "name": "Suar",
+        "age": 23,
+        "city": "Denver"
     },
     {
-        "movie": "Dune: Part 2",
-        "release_date": "March 1, 2024",
-        "rating": "8.5/10"
+        "name": "Neo",
+        "age": 30,
+        "city": "Los Angeles"
     },
     {
-        "movie": "Gladiator",
-        "release_date": "May 5, 2000",
-        "rating": "8.5/10"
+        "name": "Martinez",
+        "age": 22,
+        "city": "Chicago"
     }
 ]
 
