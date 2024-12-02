@@ -1,18 +1,18 @@
 [
     {
-        "name": "RR",
-        "age": 35,
-        "city": "San Francisco"
+        "movie": "Interstellar",
+        "release-date": October 26, 2014,
+        "rating": 8.7/10
     },
     {
-        "name": "Ann Ispen",
-        "age": 30,
-        "city": "Los Angeles"
+        "movie": "Dune: Part 2",
+        "release-date": March 1, 2024,
+        "rating": 8.5/10
     },
     {
-        "name": "Tom Hanks",
-        "age": 22,
-        "city": "Chicago"
+       "movie": "Gladiator",
+        "release-date": May 5, 2000,
+        "rating": 8.5/10
     }
 ]
 
