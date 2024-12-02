@@ -2,10 +2,11 @@
 var template = `
     <ul>
         {{#data}}
-        <li>Name: {{name}}, Age: {{age}}, City: {{city}}</li>
+        <li>Movie: {{movie}}, Release Date: {{release_date}}, Rating: {{rating}}</li>
         {{/data}}
     </ul>
 `;
+
 
 // Get the 'output' div element
 var output = document.getElementById('output');
